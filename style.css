@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;700&family=Plus+Jakarta+Sans:ital,wght@0,800;1,500&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    color: hsl(217, 20%, 71%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+}
+
+.flex-container {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-top: .5rem;
+    float: left;
+    color: hsl(224, 21%, 14%);
+}
+
+/* .dark_blue {
+    color: hsl(224, 21%, 14%);
+} */
+
+
+
+button {
+    float: right;
+    color: hsl(219, 12%, 42%);
+    margin-top: 1.5rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(224, 38%, 34%);
+}
+
+a:hover {
+    color: hsl(225, 84%, 41%);
+}
+
+span a {
+    color: hsl(224, 21%, 14%);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.num {
+    display: inline-block;
+    margin-top: .8rem;
+    margin-left: .5rem;
+    border: 1px solid hsl(219, 85%, 26%);
+    border-radius: 8px;
+    outline: none;
+    background-color: hsl(219, 85%, 26%);
+    color: hsl(0, 0%, 100%);
+    padding: 0 .6rem;
+    font-size: 1.4rem;
+}
+
+.card {
+    /* hsl(210, 60%, 98%)*/
+    background-color: hsl(211, 68%, 94%);
+    border-radius: .5rem;
+}
+
+.dot {
+    display: inline-block;
+    border: .3rem solid red;
+    /* background-color: red; */
+    border-radius: 100%;
+
+
+}
+
+img {
+    margin: 1rem 0 1rem .5rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.chess_img {
+    margin: 1rem 0 1rem 0rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    /* align-items: flex-end; */
+}
+
+textarea {
+    min-width: 15rem;
+    min-height: 8rem;
+    height: auto;
+    text-align: start;
+    padding: 1rem;
+    font-weight: 200;
+    outline: none;
+    border: 1px solid hsl(229, 44%, 12%);
+}
+
+textarea:focus {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 480px) {
+
+    p textarea,
+    div p {
+        width: 100%;
+    }
+}
