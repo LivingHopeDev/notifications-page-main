@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LivingHopeDev/notifications-page-main)
-- Live Site URL: [Add live site URL here](https://livinghopedev.github.io/notifications-page-main/)
+- Solution URL: [Click here](https://github.com/LivingHopeDev/notifications-page-main)
+- Live Site URL: [Click here](https://livinghopedev.github.io/notifications-page-main/)
 
 ## My process
 
